@@ -1,16 +1,23 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
 
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/icon',
-    '@therealironduck/ducktory'
+    '@therealironduck/ducktory',
   ],
+
+  devtools: { enabled: true },
+  compatibilityDate: '2025-07-15',
 
   ducktory: {
     debug: true,
+  },
+
+  eslint: {
+    config: {
+      stylistic: true,
+    },
   },
 })
