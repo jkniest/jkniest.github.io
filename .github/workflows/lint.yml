@@ -7,7 +7,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
@@ -16,6 +16,9 @@ jobs:
 
       - name: Install dependencies
         run: bun install
+
+      - name: Prepare environment
+        run: bunx nuxt prepare
 
       - name: Run lint
         run: bun run lint-check
