@@ -10,20 +10,18 @@
     "lint-check": "eslint . && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/content": "3.6.3",
-    "@nuxt/eslint": "1.7.1",
-    "@nuxt/fonts": "0.11.4",
-    "@nuxt/icon": "1.15.0",
-    "@tailwindcss/vite": "^4.1.11",
-    "@therealironduck/ducktory": "^0.1.3",
-    "better-sqlite3": "^12.2.0",
-    "eslint": "^9.0.0",
-    "nuxt": "^4.0.1",
-    "tailwindcss": "^4.1.11",
-    "vue": "^3.5.17",
-    "vue-router": "^4.5.1"
+    "@nuxt/content": "^3.9.0",
+    "@nuxt/eslint": "^1.12.1",
+    "@nuxt/fonts": "^0.12.1",
+    "@nuxt/icon": "^2.1.1",
+    "@therealironduck/ducktory": "^1.0.0",
+    "better-sqlite3": "^12.5.0",
+    "eslint": "^9.39.2",
+    "nuxt": "^4.2.2",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "vue-tsc": "^3.0.4"
+    "vue-tsc": "^3.1.8"
   }
 }
