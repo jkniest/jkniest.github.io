@@ -14,4 +14,8 @@
       class="rounded-lg shadow-2xl ring ring-default"
     >
   </UPageHero>
+
+  <USeparator />
+
+  <ExperienceStepper />
 </template>
