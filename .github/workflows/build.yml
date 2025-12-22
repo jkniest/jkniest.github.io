@@ -2,7 +2,7 @@ name: 'Building'
 on: ['pull_request']
 
 jobs:
-  lint:
+  build:
     runs-on: ubuntu-latest
 
     steps:
