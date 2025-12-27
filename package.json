@@ -10,7 +10,7 @@
     "lint-check": "eslint . && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/content": "^3.9.0",
+    "@nuxt/content": "^3.10.0",
     "@nuxt/eslint": "^1.12.1",
     "@nuxt/fonts": "^0.12.1",
     "@nuxt/icon": "^2.1.1",
