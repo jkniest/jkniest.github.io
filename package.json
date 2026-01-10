@@ -13,11 +13,11 @@
     "@nuxt/content": "^3.10.0",
     "@nuxt/eslint": "^1.12.1",
     "@nuxt/fonts": "^0.12.1",
-    "@nuxt/icon": "^2.1.1",
+    "@nuxt/icon": "^2.2.0",
     "@nuxt/ui": "^4.3.0",
     "@tailwindcss/vite": "^4.1.18",
     "@therealironduck/ducktory": "^1.0.0",
-    "better-sqlite3": "^12.5.0",
+    "better-sqlite3": "^12.6.0",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
     "tailwindcss": "^4.1.18",
@@ -25,6 +25,6 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "vue-tsc": "^3.1.8"
+    "vue-tsc": "^3.2.2"
   }
 }
