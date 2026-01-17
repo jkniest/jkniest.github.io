@@ -10,14 +10,14 @@
     "lint-check": "eslint . && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/content": "^3.10.0",
+    "@nuxt/content": "^3.11.0",
     "@nuxt/eslint": "^1.12.1",
     "@nuxt/fonts": "^0.12.1",
     "@nuxt/icon": "^2.2.0",
     "@nuxt/ui": "^4.3.0",
     "@tailwindcss/vite": "^4.1.18",
     "@therealironduck/ducktory": "^1.0.0",
-    "better-sqlite3": "^12.6.0",
+    "better-sqlite3": "^12.6.2",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
     "tailwindcss": "^4.1.18",
