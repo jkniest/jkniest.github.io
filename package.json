@@ -12,7 +12,7 @@
   "dependencies": {
     "@nuxt/content": "^3.11.0",
     "@nuxt/eslint": "^1.13.0",
-    "@nuxt/fonts": "^0.12.1",
+    "@nuxt/fonts": "^0.13.0",
     "@nuxt/icon": "^2.2.1",
     "@nuxt/ui": "^4.4.0",
     "@tailwindcss/vite": "^4.1.18",
@@ -22,9 +22,12 @@
     "nuxt": "^4.3.0",
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.27",
-    "vue-router": "^4.6.4"
+    "vue-router": "^5.0.1"
   },
   "devDependencies": {
-    "vue-tsc": "^3.2.3"
+    "vue-tsc": "^3.2.4"
+  },
+  "overrides": {
+    "tar": "7.5.7"
   }
 }
