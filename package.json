@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "vue-tsc": "^3.2.4"
+  },
+  "overrides": {
+    "tar": "7.5.7"
   }
 }
