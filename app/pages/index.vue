@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <UPageHero
@@ -12,6 +11,6 @@
       src="../assets/images/me.jpg"
       alt="App screenshot"
       class="rounded-lg shadow-2xl ring ring-default"
-    >
+    />
   </UPageHero>
 </template>

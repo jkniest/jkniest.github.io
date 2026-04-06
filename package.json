@@ -6,28 +6,30 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
-    "lint": "eslint . --fix && vue-tsc --noEmit",
-    "lint-check": "eslint . && vue-tsc --noEmit"
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
   "dependencies": {
     "@nuxt/content": "^3.12.0",
-    "@nuxt/eslint": "^1.15.2",
     "@nuxt/fonts": "^0.14.0",
     "@nuxt/icon": "^2.2.1",
-    "@nuxt/ui": "^4.5.0",
-    "@tailwindcss/vite": "^4.2.1",
+    "@nuxt/ui": "^4.6.1",
+    "@tailwindcss/vite": "^4.2.2",
     "@therealironduck/ducktory": "^1.0.0",
-    "better-sqlite3": "^12.6.2",
-    "eslint": "^10.0.2",
-    "nuxt": "^4.3.1",
-    "tailwindcss": "^4.2.1",
-    "vue": "^3.5.29",
-    "vue-router": "^5.0.3"
+    "better-sqlite3": "^12.8.0",
+    "nuxt": "^4.4.2",
+    "tailwindcss": "^4.2.2",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4"
   },
   "devDependencies": {
-    "vue-tsc": "^3.2.5"
+    "oxfmt": "^0.43.0",
+    "oxlint": "^1.58.0",
+    "oxlint-tsgolint": "^0.19.0"
   },
   "overrides": {
-    "tar": "7.5.7"
+    "tar": "7.5.13"
   }
 }

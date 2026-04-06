@@ -1,9 +1,7 @@
 <template>
   <UFooter>
     <template #left>
-      <p class="text-muted text-sm">
-        Copyright © {{ new Date().getFullYear() }} Jordan Kniest
-      </p>
+      <p class="text-sm text-muted">Copyright © {{ new Date().getFullYear() }} Jordan Kniest</p>
     </template>
 
     <template #right>
