@@ -1,5 +1,16 @@
 {
   "name": "jkniest.github.io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
   "dependencies": {
     "@nuxt/content": "^3.11.2",
     "@nuxt/fonts": "^0.14.0",
@@ -13,16 +24,11 @@
     "vue": "^3.5.28",
     "vue-router": "^5.0.3"
   },
+  "devDependencies": {
+    "oxfmt": "^0.43.0",
+    "oxlint": "^1.58.0"
+  },
   "overrides": {
     "tar": "7.5.7"
-  },
-  "private": true,
-  "scripts": {
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "postinstall": "nuxt prepare",
-    "lint": "eslint . --fix && vue-tsc --noEmit",
-    "lint-check": "eslint . && vue-tsc --noEmit"
-  },
-  "type": "module"
+  }
 }

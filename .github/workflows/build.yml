@@ -1,5 +1,5 @@
-name: 'Building'
-on: ['pull_request']
+name: "Building"
+on: ["pull_request"]
 
 jobs:
   build:

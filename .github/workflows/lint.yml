@@ -1,5 +1,5 @@
-name: 'Linting'
-on: ['pull_request']
+name: "Linting"
+on: ["pull_request"]
 
 jobs:
   lint:
